@@ -1,0 +1,1 @@
+gcloud container clusters create mynst --release-channel None --zone us-central1-b --max-memory=32 --min-memory=1 --min-cpu=1 --max-cpu=10  --enable-autoprovisioning --autoprovisioning-scopes=https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring,https://www.googleapis.com/auth/devstorage.read_write,https://www.googleapis.com/auth/compute
